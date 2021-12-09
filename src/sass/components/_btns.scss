@@ -1,0 +1,82 @@
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #FFFFFF !important;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  transition: 0.5s all;
+  width: max-content;
+  cursor: pointer;
+  &:hover{
+    transition: 0.5s all;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    color: #3B7F64 !important;
+  }
+  &_green{
+    background: #3B7F64;
+  }
+  &_light{
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #3B7F64;
+    color: #3B7F64 !important;
+  }
+  &_select{
+    background: #D4D6D6;
+    padding: 6px 46px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #333333;
+    &_active{
+      background: #ACC2BD;
+    }
+  }
+  &_zoom{
+    display: block;
+    padding: 20px 18px 18px 20px;
+    border-radius: 50%;
+    background: url("../img/loop.png") center no-repeat,rgba(0, 0, 0, 0.2);
+    width: 20px;
+    height: 20px;
+    z-index: 200;
+    position: absolute;
+    transition: 0.5s all;
+    &:hover{
+      background: url("../img/loop.png") center no-repeat, rgba(0, 0, 0, 0.5);
+    }
+  }
+  &_close{
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    top: 46px;
+    span{
+      display: block;
+      background: #333333;
+      width: 21px;
+      height: 1px;
+      transform: rotate(45deg) translate(7px,7px);
+      position: relative;
+      &:after{
+        content: '';
+        display: block;
+        background: #333333;
+        width: 21px;
+        height: 1px;
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+}

@@ -1,0 +1,19 @@
+@mixin title_h2{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: uppercase;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@mixin sub_title{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+}

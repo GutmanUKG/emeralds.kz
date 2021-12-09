@@ -1,0 +1,86 @@
+.contact{
+  background: #F3F6F6;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  .wrapper_flex{
+    gap: 60px;
+    justify-content: normal;
+  }
+  .txt{
+    width: calc(50%);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: rgba(51, 51, 51, 0.8);
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+    a{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      //line-height: 30px;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      color: rgba(51, 51, 51, 0.8);
+      text-decoration: none;
+    }
+    h2{
+      font-style: normal;
+      font-weight: 800;
+      font-size: 22px;
+      line-height: 27px;
+      text-transform: uppercase;
+      color: #2A4740;
+      margin-bottom: 45px;
+    }
+    .index{
+      display: flex;
+      align-items: center;
+      gap: 17px;
+      &:before{
+        content: '';
+        display: block;
+        background: url("../img/union.svg") center no-repeat;
+        width: 15px;
+        height: 20px;
+        background-size: contain;
+      }
+    }
+    .phone_number{
+      display: flex;
+      align-items: center;
+      //gap: 17px;
+      &:before{
+        content: '';
+        display: block;
+        background: url("../img/phone_ico.svg") center no-repeat;
+        width: 15px;
+        height: 20px;
+        margin-right: 16px;
+      }
+    }
+    .social{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      a{
+        display: block;
+        text-decoration: none;
+        img{
+          max-width: 15px;
+          width: 100%;
+        }
+      }
+
+    }
+    .btn{
+      margin-top: 23px;
+    }
+  }
+  .map{
+    max-width: 792px;
+    width: 100%;
+  }
+}

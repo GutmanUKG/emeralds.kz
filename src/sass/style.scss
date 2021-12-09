@@ -1,0 +1,35 @@
+@import "components/mixin";
+
+h2{
+  @include title_h2;
+}
+.sub_title{
+  @include sub_title;
+}
+
+
+
+
+@import "components/reset";
+@import "components/fonts";
+@import "components/container";
+@import "components/main_header";
+@import "components/side_bar";
+@import "components/btns";
+@import "components/banner";
+@import "components/accordion";
+@import "components/info";
+@import "components/plans";
+@import "components/form";
+@import "components/location";
+@import "components/info_us";
+@import "components/bilder";
+@import "components/contacts";
+
+html{
+  font-family: 'Inter',sans-serif;
+  scroll-behavior: smooth;
+}
+body{
+
+}

@@ -1,0 +1,147 @@
+.plans{
+  //padding-left: 7.375rem;
+  padding-top: 4.5rem;
+  padding-bottom: 4.563rem;
+  box-sizing: border-box;
+  background: #E9ECEC;
+  h2{
+    font-weight: 800;
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 42px;
+  }
+  .plans_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .text{
+      max-width: 979px;
+      width: 100%;
+      font-size: 16px;
+      line-height: 30px;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      color: rgba(51, 51, 51, 0.8);
+    }
+  }
+  .select_plans{
+    padding-top: 5rem;
+    display: flex;
+    gap: 87px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    .btn_group{
+      .btn_select{
+        border: 1px solid #F3F6F6;
+      }
+      display: flex;
+      .vertical_group{
+        display: flex;
+        flex-direction: column;
+
+        .btn_select{
+          padding: 13px 11px;
+        }
+        .big{
+          padding: 40px 11px;
+        }
+      }
+    }
+    .select_maps{
+      flex: 0 0 auto;
+      img{
+        width: 100%;
+      }
+      .block_a{
+        position: relative;
+        a{
+          &:first-child{
+            background: red;
+          }
+        }
+        &:nth-child(1) a{
+          top: 20%;
+          left: 17%;
+        }
+        a:nth-child(2){
+          left: 30%;
+          top: 12%;
+        }
+        a:nth-child(3){
+          left: 45.5%;
+          top: 12%;
+        }
+        a:nth-child(4){
+          left: 59.5%;
+          top: 12%;
+        }
+        a:nth-child(5){
+          left: 74.6%;
+          top: 12%;
+        }
+        a:nth-child(6){
+          left: 88.5%;
+          top: 12%;
+        }
+        a:nth-child(7){
+          left: 17%;
+          top: 50%;
+        }
+        a:nth-child(8){
+          left: 88.5%;
+          top: 50%;
+        }
+      }
+    }
+  }
+}
+.block_b{
+  position: relative;
+  a{
+    &:nth-child(2){
+      top: 15%;
+      left: 26%;
+    }
+    &:nth-child(3){
+      top: 10%;
+      left: 53.5%;
+    }
+    &:nth-child(4){
+      top: 15%;
+      left: 80%;
+    }
+    &:nth-child(5){
+      top: 45%;
+      left: 35%;
+    }
+    &:nth-child(6){
+      top: 45%;
+      left: 80%;
+    }
+  }
+}
+
+.block_g{
+  position: relative;
+  a{
+    &:nth-child(2){
+      top: 15%;
+      left: 26%;
+    }
+    &:nth-child(3){
+      top: 10%;
+      left: 51.5%;
+    }
+    &:nth-child(4){
+      top: 15%;
+      left: 78.5%;
+    }
+    &:nth-child(5){
+      top: 45%;
+      left: 26%;
+    }
+    &:nth-child(6){
+      top: 45%;
+      left: 78.5%;
+    }
+  }
+}
